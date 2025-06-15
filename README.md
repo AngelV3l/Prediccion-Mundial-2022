@@ -5,13 +5,13 @@
 [![Project Type](https://img.shields.io/badge/Type-End_to_End_Project-green)]()
 [![Status](https://img.shields.io/badge/Status-Completed-brightgreen)]()
 
-## 🧠 Descripción del proyecto
+## Descripción del proyecto
 
 Este proyecto realiza una **predicción completa del Mundial de Fútbol 2022** utilizando un modelo probabilístico basado en la **distribución de Poisson**, partiendo de datos reales de todos los mundiales desde 1930. Está estructurado como un **proyecto de ciencia de datos de principio a fin**, que incluye:
 
 - **Scraping y tratamiento de datos reales** desde Wikipedia.
 - **Limpieza y transformación de datasets** con pandas.
-- **Análisis exploratorio** y visualizaciones descriptivas.
+- **Análisis exploratorio**.
 - **Diseño e implementación de un modelo predictivo probabilístico**.
 - **Simulación completa del torneo**, incluyendo fase de grupos y eliminatorias.
 
@@ -35,7 +35,6 @@ Este proyecto combina técnicas estadísticas sólidas con habilidades práctica
 |----------------------|---------------------------------------------------|
 | **Python**           | Lenguaje principal para análisis y modelado       |
 | **Pandas**           | Manipulación y limpieza de datos                  |
-| **Matplotlib / Seaborn** | Visualización de datos                       |
 | **Scipy**            | Distribución de Poisson para modelado probabilístico |
 | **Jupyter Notebook** | Entorno de desarrollo y presentación interactiva  |
 | **Git / GitHub**     | Control de versiones y publicación del proyecto   |
@@ -45,9 +44,9 @@ Este proyecto combina técnicas estadísticas sólidas con habilidades práctica
 ## 📂 Estructura del repositorio
 
 ```bash
-├── grupos_mundial2022.ipynb       # Extracción y visualización de estadísticas del Mundial
-├── limpieza_datos.ipynb           # Proceso de limpieza y transformación de datos
-├── modelo.ipynb                   # Modelo Poisson y simulación completa del Mundial
+├── Tablas_mundial2022.ipynb       # Extracción de tablas de grupos del Mundial a predecir
+├── Limpieza_de_datos.ipynb           # Proceso de limpieza y transformación de datos históricos y fixture del Mundial 2022
+├── Modelo.ipynb                   # Modelo Poisson y simulación completa del Mundial
 ├── dict_table                     # Estructura de grupos usada en el modelo (pickle)
 ├── clean_fifa_worldcup_historical_data.csv   # Datos históricos limpios
 ├── clean_fifa_worldcup_fixture.csv           # Fixture del Mundial 2022 limpio
